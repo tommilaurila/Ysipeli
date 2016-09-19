@@ -64,18 +64,9 @@
             <resource alwaysLoaded="false" file="slimeWalk2.png" kind="image" name="slimeWalk2.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="jedulogo.png" kind="image" name="jedulogo.png" smoothed="true" userAdded="true" />
             <resource alwaysLoaded="false" file="jedulogo64.png" kind="image" name="jedulogo64.png" smoothed="true" userAdded="true" />
+            <resource alwaysLoaded="false" file="heart36px.png" kind="image" name="heart36px.png" smoothed="true" userAdded="true" />
         </resources>
-        <resourceFolders>
-            <folder name="testi01">
-                <resources>
-                    <resource name="vesi.png" />
-                    <resource name="maa.png" />
-                </resources>
-            </folder>
-            <folder name="testi02">
-                <resources />
-            </folder>
-        </resourceFolders>
+        <resourceFolders />
     </resources>
     <objects />
     <objectsGroups />
@@ -84,112 +75,42 @@
         <variable name="pisteet" value="0" />
     </variables>
     <layouts>
-        <layout b="255" disableInputWhenNotFocused="true" mangledName="Taso02" name="Taso02" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="204" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso 1" v="230">
+        <layout b="255" disableInputWhenNotFocused="true" mangledName="Malli01" name="Malli01" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="204" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso 1" v="230">
             <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
             <objectsGroups />
             <variables />
             <instances>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="526.000000" x="459.000000" y="440.000000" zOrder="1">
+                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="115.000046" x="-128.999954" y="561.000000" zOrder="1">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="186.000031" x="13.000076" y="558.000000" zOrder="1">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pelaaja" width="0.000000" x="-91.999985" y="452.000000" zOrder="10">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="52.000031" x="209.000076" y="520.000000" zOrder="1">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="-187.000000" y="456.000000" zOrder="3">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="186.000031" x="1001.000122" y="516.000000" zOrder="1">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="ruohokuutio" width="0.000000" x="-186.999939" y="368.000000" zOrder="5">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pelaaja" width="0.000000" x="15.000019" y="466.000000" zOrder="10">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tukkisilta" width="0.000000" x="-191.999878" y="508.000000" zOrder="6">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="96.000031" x="1389.000122" y="408.000000" zOrder="1">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tikkaat" width="0.000000" x="-65.999985" y="344.000000" zOrder="8">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="186.000031" x="273.000092" y="478.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="186.000031" x="1193.000122" y="458.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="1131.000000" y="414.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="284.000000" y="401.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="335.000000" y="400.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="389.000000" y="400.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="1026.000000" y="415.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="1080.000000" y="387.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="ruohokuutio" width="0.000000" x="643.000061" y="245.000000" zOrder="5">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tukkisilta" width="0.000000" x="637.000061" y="369.000000" zOrder="6">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tikkaat" width="0.000000" x="530.000000" y="220.000000" zOrder="8">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tikkaat" width="0.000000" x="532.000000" y="367.000000" zOrder="8">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tikkaat" width="0.000000" x="531.000000" y="294.000000" zOrder="8">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="ruohokuutio" width="0.000000" x="570.000061" y="244.000000" zOrder="5">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pensas" width="0.000000" x="118.500031" y="488.000000" zOrder="1">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pensas" width="0.000000" x="-207.499985" y="524.000000" zOrder="1">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -199,782 +120,12 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-            </instances>
-            <objects>
-                <object height="32.000000" name="alusta" texture="grassHalfMid.png" type="TiledSpriteObject::TiledSprite" width="32.000000">
-                    <variables />
-                    <behaviors>
-                        <behavior canBeGrabbed="true" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
-                    </behaviors>
-                </object>
-                <object name="pelaaja" type="Sprite">
-                    <variables />
-                    <behaviors>
-                        <behavior acceleration="1500.000000" canGrabPlatforms="false" deceleration="1500.000000" gravity="1000.000000" ignoreDefaultControls="false" jumpSpeed="600.000000" maxFallingSpeed="700.000000" maxSpeed="250.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
-                    </behaviors>
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="p1_stand.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="p1_jump.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="true" timeBetweenFrames="0.050000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk03.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk04.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk05.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk06.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk07.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-                <object name="kolikko" type="Sprite">
-                    <variables />
-                    <behaviors />
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="coinGold.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-                <object name="ruohokuutio" type="Sprite">
-                    <variables />
-                    <behaviors>
-                        <behavior canBeGrabbed="true" name="Platform" platformType="Jumpthru" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
-                    </behaviors>
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="Grass.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-                <object name="tukkisilta" type="Sprite">
-                    <variables />
-                    <behaviors>
-                        <behavior canBeGrabbed="true" name="Platform" platformType="Jumpthru" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
-                    </behaviors>
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="bridgeLogs.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-                <object name="tikkaat" type="Sprite">
-                    <variables />
-                    <behaviors>
-                        <behavior canBeGrabbed="true" name="Platform" platformType="Ladder" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
-                    </behaviors>
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="tikkaat.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-                <object name="pensas" type="Sprite">
-                    <variables />
-                    <behaviors />
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="bush.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-                <object name="taustakuva" type="Sprite">
-                    <variables />
-                    <behaviors />
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="taustamaisema.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-            </objects>
-            <events>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Comment</type>
-                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
-                    <comment>Pelaajan liikkuminen</comment>
-                    <comment2></comment2>
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Link</type>
-                    <include end="-1" includeAll="true" start="-1" />
-                    <target>PelaajaManager</target>
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Comment</type>
-                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
-                    <comment>Kamera seuraa pelaajaa</comment>
-                    <comment2></comment2>
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Link</type>
-                    <include end="-1" includeAll="true" start="-1" />
-                    <target>KameraManager</target>
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Comment</type>
-                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
-                    <comment>Kolikoiden kerääminen</comment>
-                    <comment2></comment2>
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="CollisionNP" />
-                            <parameters>
-                                <parameter>pelaaja</parameter>
-                                <parameter>kolikko</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="Delete" />
-                            <parameters>
-                                <parameter>kolikko</parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                        <action>
-                            <type inverted="false" value="PlaySound" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>coin.wav</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-            </events>
-            <layers>
-                <layer name="Tausta" visibility="true">
-                    <cameras>
-                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
-                    </cameras>
-                    <effects />
-                </layer>
-                <layer name="" visibility="true">
-                    <cameras>
-                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
-                    </cameras>
-                    <effects />
-                </layer>
-            </layers>
-            <behaviorsSharedData>
-                <behaviorSharedData name="Platform" type="PlatformBehavior::PlatformBehavior" />
-                <behaviorSharedData name="PlatformerObject" type="PlatformBehavior::PlatformerObjectBehavior" />
-            </behaviorsSharedData>
-        </layout>
-        <layout b="209" disableInputWhenNotFocused="true" mangledName="testi01" name="testi01" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
-            <objectsGroups />
-            <variables />
-            <instances>
-                <instance angle="0.000000" customSize="true" height="98.000000" layer="" locked="false" name="maa" width="490.000000" x="492.500000" y="527.000000" zOrder="1">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="siili" width="0.000000" x="-139.500000" y="299.000000" zOrder="11">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="98.000000" layer="" locked="false" name="vesi" width="194.000000" x="297.500000" y="522.000000" zOrder="2">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="98.000000" layer="" locked="false" name="maa" width="293.000000" x="3.499992" y="525.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pelaaja" width="0.000000" x="17.500008" y="434.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-            </instances>
-            <objects>
-                <object height="98.000000" name="maa" texture="maa.png" type="TiledSpriteObject::TiledSprite" width="98.000000">
-                    <variables />
-                    <behaviors>
-                        <behavior canBeGrabbed="true" name="Platform" platformType="NormalPlatform" type="PlatformBehavior::PlatformBehavior" yGrabOffset="0.000000" />
-                    </behaviors>
-                </object>
-                <object height="98.000000" name="vesi" texture="vesi.png" type="TiledSpriteObject::TiledSprite" width="98.000000">
-                    <variables />
-                    <behaviors />
-                </object>
-                <object name="pelaaja" type="Sprite">
-                    <variables />
-                    <behaviors>
-                        <behavior acceleration="1500.000000" canGrabPlatforms="false" deceleration="1500.000000" gravity="1000.000000" ignoreDefaultControls="false" jumpSpeed="600.000000" maxFallingSpeed="700.000000" maxSpeed="250.000000" name="PlatformerObject" slopeMaxAngle="60.000000" type="PlatformBehavior::PlatformerObjectBehavior" xGrabTolerance="10.000000" yGrabOffset="0.000000" />
-                    </behaviors>
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="p1_stand.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="p1_jump.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="true" timeBetweenFrames="0.050000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk03.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk04.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk05.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk06.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                        <sprite hasCustomCollisionMask="false" image="p1_walk07.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-            </objects>
-            <events>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Link</type>
-                    <include end="-1" includeAll="true" start="-1" />
-                    <target>PelaajaManager</target>
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Link</type>
-                    <include end="-1" includeAll="true" start="-1" />
-                    <target>KameraManager</target>
-                </event>
-            </events>
-            <layers>
-                <layer name="" visibility="true">
-                    <cameras>
-                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
-                    </cameras>
-                    <effects />
-                </layer>
-            </layers>
-            <behaviorsSharedData>
-                <behaviorSharedData name="Platform" type="PlatformBehavior::PlatformBehavior" />
-                <behaviorSharedData name="PlatformerObject" type="PlatformBehavior::PlatformerObjectBehavior" />
-            </behaviorsSharedData>
-        </layout>
-        <layout b="209" disableInputWhenNotFocused="true" mangledName="testi02" name="testi02" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
-            <objectsGroups />
-            <variables />
-            <instances>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pixelguy" width="0.000000" x="390.500000" y="280.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-            </instances>
-            <objects>
-                <object name="pixelguy" type="Sprite">
-                    <variables />
-                    <behaviors />
-                    <animations>
-                        <animation name="" useMultipleDirections="false">
-                            <directions>
-                                <direction looping="false" timeBetweenFrames="1.000000">
-                                    <sprites>
-                                        <sprite hasCustomCollisionMask="false" image="Pixel-Guy-67px.png">
-                                            <points />
-                                            <originPoint name="origine" x="0.000000" y="0.000000" />
-                                            <centerPoint automatic="true" name="centre" x="0.000000" y="0.000000" />
-                                            <customCollisionMask>
-                                                <polygon>
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                    <vertice x="0.000000" y="0.000000" />
-                                                </polygon>
-                                            </customCollisionMask>
-                                        </sprite>
-                                    </sprites>
-                                </direction>
-                            </directions>
-                        </animation>
-                    </animations>
-                </object>
-            </objects>
-            <events>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="DepartScene" />
-                            <parameters>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="MettreXY" />
-                            <parameters>
-                                <parameter>pixelguy</parameter>
-                                <parameter>=</parameter>
-                                <parameter>0</parameter>
-                                <parameter>=</parameter>
-                                <parameter>0</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-            </events>
-            <layers>
-                <layer name="" visibility="true">
-                    <cameras>
-                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
-                    </cameras>
-                    <effects />
-                </layer>
-            </layers>
-            <behaviorsSharedData />
-        </layout>
-        <layout b="255" disableInputWhenNotFocused="true" mangledName="Taso01" name="Taso01" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="204" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso 1" v="230">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
-            <objectsGroups />
-            <variables />
-            <instances>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="526.000000" x="459.000000" y="440.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="186.000031" x="13.000076" y="558.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="52.000031" x="209.000076" y="520.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="186.000031" x="1001.000122" y="516.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pelaaja" width="0.000000" x="10.000019" y="400.000000" zOrder="10">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="161.000031" x="1324.000122" y="408.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="186.000031" x="273.000092" y="478.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="130.000031" x="1193.000122" y="458.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="1131.000000" y="414.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="284.000000" y="401.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="335.000000" y="400.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="389.000000" y="400.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="1026.000000" y="415.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="1080.000000" y="387.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="ruohokuutio" width="0.000000" x="643.000061" y="245.000000" zOrder="5">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tukkisilta" width="0.000000" x="637.000061" y="369.000000" zOrder="6">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tikkaat" width="0.000000" x="530.000000" y="220.000000" zOrder="8">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tikkaat" width="0.000000" x="532.000000" y="367.000000" zOrder="8">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tikkaat" width="0.000000" x="531.000000" y="294.000000" zOrder="8">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="ruohokuutio" width="0.000000" x="570.000061" y="244.000000" zOrder="5">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pensas" width="0.000000" x="118.500031" y="488.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="Tausta" locked="false" name="taustakuva" width="0.000000" x="0.000000" y="5.000000" zOrder="1">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="siili" width="0.000000" x="647.500000" y="217.000000" zOrder="11">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="vasenstop" width="0.000000" x="543.500000" y="218.000000" zOrder="12">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="oikeastop" width="0.000000" x="715.500000" y="218.000000" zOrder="13">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="oikeastop" width="0.000000" x="-78.500008" y="304.000000" zOrder="13">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -984,17 +135,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="vasenstop" width="0.000000" x="436.500000" y="410.000000" zOrder="12">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="oikeastop" width="0.000000" x="976.500000" y="412.000000" zOrder="13">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="siili" width="0.000000" x="676.500000" y="412.000000" zOrder="11">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="vasenstop" width="0.000000" x="-180.500000" y="305.000000" zOrder="12">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1004,7 +145,12 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="64.000000" layer="" locked="false" name="jedulogo" width="64.000000" x="1460.000000" y="370.000000" zOrder="3">
+                <instance angle="0.000000" customSize="false" height="64.000000" layer="" locked="false" name="jedulogo" width="64.000000" x="-74.000000" y="251.000000" zOrder="3">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="sydan" width="0.000000" x="-174.499969" y="246.000000" zOrder="14">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1445,6 +591,33 @@
                         </animation>
                     </animations>
                 </object>
+                <object name="sydan" type="Sprite">
+                    <variables />
+                    <behaviors />
+                    <animations>
+                        <animation name="" useMultipleDirections="false">
+                            <directions>
+                                <direction looping="false" timeBetweenFrames="1.000000">
+                                    <sprites>
+                                        <sprite hasCustomCollisionMask="false" image="heart36px.png">
+                                            <points />
+                                            <originPoint name="origine" x="0.000000" y="0.000000" />
+                                            <centerPoint automatic="true" name="centre" x="18.000000" y="17.500000" />
+                                            <customCollisionMask>
+                                                <polygon>
+                                                    <vertice x="0.000000" y="0.000000" />
+                                                    <vertice x="36.000000" y="0.000000" />
+                                                    <vertice x="36.000000" y="35.000000" />
+                                                    <vertice x="0.000000" y="35.000000" />
+                                                </polygon>
+                                            </customCollisionMask>
+                                        </sprite>
+                                    </sprites>
+                                </direction>
+                            </directions>
+                        </animation>
+                    </animations>
+                </object>
             </objects>
             <events>
                 <event disabled="false" folded="false">
@@ -1479,6 +652,15 @@
                             </parameters>
                             <subActions />
                         </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>elamat</parameter>
+                                <parameter>=</parameter>
+                                <parameter>3</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
                     </actions>
                     <events />
                 </event>
@@ -1489,9 +671,168 @@
                     <comment2></comment2>
                 </event>
                 <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Link</type>
-                    <include end="-1" includeAll="true" start="-1" />
-                    <target>PelaajaManager</target>
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="KeyPressed" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Right</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="FlipX" />
+                            <parameters>
+                                <parameter>pelaaja</parameter>
+                                <parameter>no</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="PlatformBehavior::IsFalling" />
+                            <parameters>
+                                <parameter>pelaaja</parameter>
+                                <parameter>PlatformerObject</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ChangeAnimation" />
+                            <parameters>
+                                <parameter>pelaaja</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="KeyPressed" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>Left</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="FlipX" />
+                            <parameters>
+                                <parameter>pelaaja</parameter>
+                                <parameter>yes</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="PlatformBehavior::IsOnFloor" />
+                            <parameters>
+                                <parameter>pelaaja</parameter>
+                                <parameter>PlatformerObject</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="PlatformBehavior::IsMoving" />
+                                    <parameters>
+                                        <parameter>pelaaja</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeAnimation" />
+                                    <parameters>
+                                        <parameter>pelaaja</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>2</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="true" value="PlatformBehavior::IsMoving" />
+                                    <parameters>
+                                        <parameter>pelaaja</parameter>
+                                        <parameter>PlatformerObject</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeAnimation" />
+                                    <parameters>
+                                        <parameter>pelaaja</parameter>
+                                        <parameter>=</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="PlatformBehavior::IsJumping" />
+                            <parameters>
+                                <parameter>pelaaja</parameter>
+                                <parameter>PlatformerObject</parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="ChangeAnimation" />
+                            <parameters>
+                                <parameter>pelaaja</parameter>
+                                <parameter>=</parameter>
+                                <parameter>1</parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
@@ -1500,9 +841,22 @@
                     <comment2></comment2>
                 </event>
                 <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Link</type>
-                    <include end="-1" includeAll="true" start="-1" />
-                    <target>KameraManager</target>
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions />
+                    <actions>
+                        <action>
+                            <type inverted="false" value="CentreCamera" />
+                            <parameters>
+                                <parameter></parameter>
+                                <parameter>pelaaja</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                    </actions>
+                    <events />
                 </event>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Comment</type>
@@ -1833,7 +1187,34 @@
                                     <subActions />
                                 </action>
                             </actions>
-                            <events />
+                            <events>
+                                <event disabled="false" folded="false">
+                                    <type>BuiltinCommonInstructions::Standard</type>
+                                    <conditions>
+                                        <condition>
+                                            <type inverted="false" value="VarGlobal" />
+                                            <parameters>
+                                                <parameter>elamat</parameter>
+                                                <parameter>&lt;</parameter>
+                                                <parameter>1</parameter>
+                                            </parameters>
+                                            <subConditions />
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action>
+                                            <type inverted="false" value="Scene" />
+                                            <parameters>
+                                                <parameter></parameter>
+                                                <parameter>&quot;GameOver&quot;</parameter>
+                                                <parameter>true</parameter>
+                                            </parameters>
+                                            <subActions />
+                                        </action>
+                                    </actions>
+                                    <events />
+                                </event>
+                            </events>
                         </event>
                     </events>
                 </event>
@@ -1869,11 +1250,11 @@
                     </conditions>
                     <actions>
                         <action>
-                            <type inverted="false" value="ChangeScale" />
+                            <type inverted="false" value="ChangeAnimation" />
                             <parameters>
                                 <parameter>pelaaja</parameter>
-                                <parameter>-</parameter>
-                                <parameter>0.02</parameter>
+                                <parameter>=</parameter>
+                                <parameter>0</parameter>
                             </parameters>
                             <subActions />
                         </action>
@@ -1886,19 +1267,113 @@
                             </parameters>
                             <subActions />
                         </action>
-                        <action>
-                            <type inverted="false" value="MettreXY" />
+                    </actions>
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="ScaleWidth" />
+                                    <parameters>
+                                        <parameter>pelaaja</parameter>
+                                        <parameter>&gt;</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ChangeScale" />
+                                    <parameters>
+                                        <parameter>pelaaja</parameter>
+                                        <parameter>-</parameter>
+                                        <parameter>0.02</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                                <action>
+                                    <type inverted="false" value="MettreAutour" />
+                                    <parameters>
+                                        <parameter>pelaaja</parameter>
+                                        <parameter>jedulogo</parameter>
+                                        <parameter>-32</parameter>
+                                        <parameter>0</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Comment</type>
+                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
+                    <comment>Pelaaja törmää sydämeen</comment>
+                    <comment2></comment2>
+                </event>
+                <event disabled="false" folded="false">
+                    <type>BuiltinCommonInstructions::Standard</type>
+                    <conditions>
+                        <condition>
+                            <type inverted="false" value="CollisionNP" />
                             <parameters>
                                 <parameter>pelaaja</parameter>
-                                <parameter>=</parameter>
-                                <parameter>jedulogo.X()</parameter>
-                                <parameter>=</parameter>
-                                <parameter>jedulogo.Y()</parameter>
+                                <parameter>sydan</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subConditions />
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action>
+                            <type inverted="false" value="Delete" />
+                            <parameters>
+                                <parameter>sydan</parameter>
+                                <parameter></parameter>
+                            </parameters>
+                            <subActions />
+                        </action>
+                        <action>
+                            <type inverted="false" value="ModVarGlobal" />
+                            <parameters>
+                                <parameter>pisteet</parameter>
+                                <parameter>+</parameter>
+                                <parameter>10</parameter>
                             </parameters>
                             <subActions />
                         </action>
                     </actions>
-                    <events />
+                    <events>
+                        <event disabled="false" folded="false">
+                            <type>BuiltinCommonInstructions::Standard</type>
+                            <conditions>
+                                <condition>
+                                    <type inverted="false" value="VarGlobal" />
+                                    <parameters>
+                                        <parameter>elamat</parameter>
+                                        <parameter>&lt;</parameter>
+                                        <parameter>3</parameter>
+                                    </parameters>
+                                    <subConditions />
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action>
+                                    <type inverted="false" value="ModVarGlobal" />
+                                    <parameters>
+                                        <parameter>elamat</parameter>
+                                        <parameter>+</parameter>
+                                        <parameter>1</parameter>
+                                    </parameters>
+                                    <subActions />
+                                </action>
+                            </actions>
+                            <events />
+                        </event>
+                    </events>
                 </event>
             </events>
             <layers>
@@ -1926,74 +1401,51 @@
                 <behaviorSharedData name="PlatformerObject" type="PlatformBehavior::PlatformerObjectBehavior" />
             </behaviorsSharedData>
         </layout>
-    </layouts>
-    <externalEvents>
-        <externalEvents associatedLayout="Taso01" lastChangeTimeStamp="0" name="PelaajaManager">
+        <layout b="209" disableInputWhenNotFocused="true" mangledName="GameOver" name="GameOver" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <objectsGroups />
+            <variables />
+            <instances>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="gameover" width="0.000000" x="278.500000" y="142.000000" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="uusipeli" width="0.000000" x="335.500000" y="256.000000" zOrder="2">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+            </instances>
+            <objects>
+                <object bold="false" italic="false" name="gameover" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>Game over!</string>
+                    <font></font>
+                    <characterSize>48</characterSize>
+                    <color b="0" g="0" r="0" />
+                </object>
+                <object bold="true" italic="false" name="uusipeli" smoothed="true" type="TextObject::Text" underlined="false">
+                    <variables />
+                    <behaviors />
+                    <string>Uusi peli</string>
+                    <font></font>
+                    <characterSize>32</characterSize>
+                    <color b="0" g="128" r="0" />
+                </object>
+            </objects>
             <events>
                 <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Comment</type>
-                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
-                    <comment>Pelaajan liikkuminen</comment>
-                    <comment2></comment2>
-                </event>
-                <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
                     <conditions>
                         <condition>
-                            <type inverted="false" value="PlatformBehavior::IsJumping" />
+                            <type inverted="false" value="SourisSurObjet" />
                             <parameters>
-                                <parameter>pelaaja</parameter>
-                                <parameter>PlatformerObject</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="ChangeAnimation" />
-                            <parameters>
-                                <parameter>pelaaja</parameter>
-                                <parameter>=</parameter>
-                                <parameter>1</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="PlatformBehavior::IsFalling" />
-                            <parameters>
-                                <parameter>pelaaja</parameter>
-                                <parameter>PlatformerObject</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="ChangeAnimation" />
-                            <parameters>
-                                <parameter>pelaaja</parameter>
-                                <parameter>=</parameter>
-                                <parameter>0</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="PlatformBehavior::IsOnFloor" />
-                            <parameters>
-                                <parameter>pelaaja</parameter>
-                                <parameter>PlatformerObject</parameter>
+                                <parameter>uusipeli</parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
+                                <parameter></parameter>
                             </parameters>
                             <subConditions />
                         </condition>
@@ -2004,46 +1456,21 @@
                             <type>BuiltinCommonInstructions::Standard</type>
                             <conditions>
                                 <condition>
-                                    <type inverted="false" value="PlatformBehavior::IsMoving" />
+                                    <type inverted="false" value="SourisBouton" />
                                     <parameters>
-                                        <parameter>pelaaja</parameter>
-                                        <parameter>PlatformerObject</parameter>
+                                        <parameter></parameter>
+                                        <parameter>Left</parameter>
                                     </parameters>
                                     <subConditions />
                                 </condition>
                             </conditions>
                             <actions>
                                 <action>
-                                    <type inverted="false" value="ChangeAnimation" />
+                                    <type inverted="false" value="Scene" />
                                     <parameters>
-                                        <parameter>pelaaja</parameter>
-                                        <parameter>=</parameter>
-                                        <parameter>2</parameter>
-                                    </parameters>
-                                    <subActions />
-                                </action>
-                            </actions>
-                            <events />
-                        </event>
-                        <event disabled="false" folded="false">
-                            <type>BuiltinCommonInstructions::Standard</type>
-                            <conditions>
-                                <condition>
-                                    <type inverted="true" value="PlatformBehavior::IsMoving" />
-                                    <parameters>
-                                        <parameter>pelaaja</parameter>
-                                        <parameter>PlatformerObject</parameter>
-                                    </parameters>
-                                    <subConditions />
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action>
-                                    <type inverted="false" value="ChangeAnimation" />
-                                    <parameters>
-                                        <parameter>pelaaja</parameter>
-                                        <parameter>=</parameter>
-                                        <parameter>0</parameter>
+                                        <parameter></parameter>
+                                        <parameter>&quot;Taso01&quot;</parameter>
+                                        <parameter>true</parameter>
                                     </parameters>
                                     <subActions />
                                 </action>
@@ -2052,85 +1479,19 @@
                         </event>
                     </events>
                 </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="KeyPressed" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>Left</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="FlipX" />
-                            <parameters>
-                                <parameter>pelaaja</parameter>
-                                <parameter>yes</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="KeyPressed" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>Right</parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action>
-                            <type inverted="false" value="FlipX" />
-                            <parameters>
-                                <parameter>pelaaja</parameter>
-                                <parameter>no</parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
             </events>
-        </externalEvents>
-        <externalEvents associatedLayout="Taso01" lastChangeTimeStamp="0" name="KameraManager">
-            <events>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Comment</type>
-                    <color b="109" g="230" r="255" textB="0" textG="0" textR="0" />
-                    <comment>Kamera seuraa pelaajaa</comment>
-                    <comment2></comment2>
-                </event>
-                <event disabled="false" folded="false">
-                    <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions />
-                    <actions>
-                        <action>
-                            <type inverted="false" value="CentreCamera" />
-                            <parameters>
-                                <parameter></parameter>
-                                <parameter>pelaaja</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subActions />
-                        </action>
-                    </actions>
-                    <events />
-                </event>
-            </events>
-        </externalEvents>
-    </externalEvents>
+            <layers>
+                <layer name="" visibility="true">
+                    <cameras>
+                        <camera defaultSize="true" defaultViewport="true" height="0.000000" viewportBottom="1.000000" viewportLeft="0.000000" viewportRight="1.000000" viewportTop="0.000000" width="0.000000" />
+                    </cameras>
+                    <effects />
+                </layer>
+            </layers>
+            <behaviorsSharedData />
+        </layout>
+    </layouts>
+    <externalEvents />
     <externalLayouts />
     <externalSourceFiles />
 </project>
