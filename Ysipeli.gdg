@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <project firstLayout="">
-    <gdVersion build="92" major="4" minor="0" revision="0" />
+    <gdVersion build="92" major="4" minor="0" revision="1" />
     <properties folderProject="false" linuxExecutableFilename="" macExecutableFilename="" packageName="com.example.gamename" useExternalSourceFiles="false" winExecutableFilename="" winExecutableIconFile="">
         <name>Ysipeli</name>
         <author></author>
@@ -147,15 +147,10 @@
     </variables>
     <layouts>
         <layout b="255" disableInputWhenNotFocused="true" mangledName="Malli01" name="Malli01" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="204" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso 1" v="230">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pelaaja" width="0.000000" x="-105.999969" y="462.999969" zOrder="10">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="-187.000000" y="456.000000" zOrder="3">
                     <numberProperties />
                     <stringProperties />
@@ -231,12 +226,17 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="aloituspaikka" width="0.000000" x="-104.999924" y="94.500061" zOrder="16">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="aloituspaikka" width="0.000000" x="-187.999939" y="122.500061" zOrder="16">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="73.000076" x="-105.999908" y="560.999878" zOrder="1">
+                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="73.000076" x="-94.999931" y="564.999878" zOrder="1">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pelaaja" width="0.000000" x="-96.999962" y="454.000000" zOrder="17">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -1547,7 +1547,7 @@
             </behaviorsSharedData>
         </layout>
         <layout b="209" disableInputWhenNotFocused="true" mangledName="Malli02" name="Malli02" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="209" standardSortMethod="true" stopSoundsOnStartup="true" title="" v="209">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
@@ -3035,7 +3035,7 @@
             </behaviorsSharedData>
         </layout>
         <layout b="192" disableInputWhenNotFocused="true" mangledName="Malli03" name="Malli03" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="192" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso01" v="192">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
@@ -3044,17 +3044,17 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="70.000000" layer="" locked="false" name="RuohoKuutio" width="104.000000" x="-227.000000" y="1.000000" zOrder="5">
+                <instance angle="0.000000" customSize="false" height="70.000000" layer="" locked="false" name="RuohoKuutio" width="104.000000" x="-223.000015" y="43.000000" zOrder="5">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Tikkaat" width="0.000000" x="-116.000000" y="4.000008" zOrder="6">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Tikkaat" width="0.000000" x="-114.000008" y="47.999996" zOrder="6">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Pensas" width="0.000000" x="-115.000000" y="172.000031" zOrder="2">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Pensas" width="0.000000" x="-113.000000" y="200.000031" zOrder="2">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -3089,17 +3089,17 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="25.000000" layer="" locked="false" name="OikeaStop" width="25.000000" x="-90.000000" y="357.000000" zOrder="13">
+                <instance angle="0.000000" customSize="true" height="25.000000" layer="" locked="false" name="oikeastop" width="25.000000" x="-90.000000" y="357.000000" zOrder="13">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="25.000000" layer="" locked="false" name="VasenStop" width="25.000000" x="-249.000031" y="362.000000" zOrder="12">
+                <instance angle="0.000000" customSize="true" height="25.000000" layer="" locked="false" name="vasenstop" width="25.000000" x="-249.000031" y="362.000000" zOrder="12">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Puu" width="0.000000" x="-260.000000" y="100.999969" zOrder="0">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="Puu" width="0.000000" x="-248.000031" y="126.999969" zOrder="0">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -3129,17 +3129,12 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="Tausta" locked="false" name="Pilvi" width="0.000000" x="223.500000" y="29.000008" zOrder="18">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="Tausta" locked="false" name="Pilvi" width="0.000000" x="-180.499969" y="-42.999981" zOrder="18">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="Tausta" locked="false" name="Pilvi" width="0.000000" x="574.500000" y="36.000000" zOrder="18">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="jedulogo" width="0.000000" x="-119.999969" y="112.000015" zOrder="18">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="jedulogo" width="0.000000" x="-109.999977" y="154.000015" zOrder="18">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -3501,7 +3496,7 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="VasenStop" type="Sprite">
+                <object name="vasenstop" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations>
@@ -3528,7 +3523,7 @@
                         </animation>
                     </animations>
                 </object>
-                <object name="OikeaStop" type="Sprite">
+                <object name="oikeastop" type="Sprite">
                     <variables />
                     <behaviors />
                     <animations>
@@ -4165,7 +4160,7 @@
                             <type inverted="false" value="CollisionNP" />
                             <parameters>
                                 <parameter>Vihollinen</parameter>
-                                <parameter>VasenStop</parameter>
+                                <parameter>vasenstop</parameter>
                                 <parameter></parameter>
                                 <parameter></parameter>
                             </parameters>
@@ -4201,7 +4196,7 @@
                             <type inverted="false" value="CollisionNP" />
                             <parameters>
                                 <parameter>Vihollinen</parameter>
-                                <parameter>OikeaStop</parameter>
+                                <parameter>oikeastop</parameter>
                                 <parameter></parameter>
                                 <parameter></parameter>
                             </parameters>
@@ -4517,7 +4512,7 @@
             </behaviorsSharedData>
         </layout>
         <layout b="132" disableInputWhenNotFocused="true" mangledName="Malli04" name="Malli04" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="255" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso 1" v="172">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
@@ -4571,7 +4566,7 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="raketti" width="0.000000" x="-291.500061" y="221.000031" zOrder="16">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="raketti" width="0.000000" x="-289.500122" y="219.000031" zOrder="16">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -4601,12 +4596,12 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="240.000031" x="-253.500031" y="533.000000" zOrder="24">
+                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="240.000031" x="-261.500031" y="521.000000" zOrder="24">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="aloituspaikka" width="0.000000" x="-245.000000" y="422.499969" zOrder="25">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="aloituspaikka" width="0.000000" x="-249.000000" y="422.499969" zOrder="25">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -6271,7 +6266,7 @@
             </behaviorsSharedData>
         </layout>
         <layout b="255" disableInputWhenNotFocused="true" mangledName="Malli05" name="Malli05" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="0" standardSortMethod="true" stopSoundsOnStartup="true" title="Taso 5" v="0">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
@@ -7852,7 +7847,7 @@
             </behaviorsSharedData>
         </layout>
         <layout b="192" disableInputWhenNotFocused="true" mangledName="Malli06" name="Malli06" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="192" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso01" v="192">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
@@ -9264,7 +9259,7 @@
             </behaviorsSharedData>
         </layout>
         <layout b="255" disableInputWhenNotFocused="true" mangledName="Malli07" name="Malli07" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="204" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso 1" v="230">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
@@ -10674,7 +10669,7 @@
             </behaviorsSharedData>
         </layout>
         <layout b="192" disableInputWhenNotFocused="true" mangledName="Malli08" name="Malli08" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="192" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso01" v="192">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
@@ -12411,26 +12406,21 @@
             </behaviorsSharedData>
         </layout>
         <layout b="255" disableInputWhenNotFocused="true" mangledName="Malli09" name="Malli09" oglFOV="90.000000" oglZFar="500.000000" oglZNear="1.000000" r="204" standardSortMethod="false" stopSoundsOnStartup="true" title="Taso 1" v="230">
-            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="1.000000" />
+            <uiSettings grid="false" gridB="255" gridG="180" gridHeight="32" gridOffsetX="0" gridOffsetY="0" gridR="158" gridWidth="32" snap="true" windowMask="false" zoomFactor="0.500000" />
             <objectsGroups />
             <variables />
             <instances>
-                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="204.000031" x="-219.999939" y="557.000000" zOrder="1">
+                <instance angle="0.000000" customSize="true" height="32.000000" layer="" locked="false" name="alusta" width="97.999985" x="-121.999939" y="555.000000" zOrder="1">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pelaaja" width="0.000000" x="-91.999985" y="452.000000" zOrder="10">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="pelaaja" width="0.000000" x="-91.999985" y="452.000000" zOrder="20">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
                 <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="kolikko" width="0.000000" x="-144.000015" y="359.000000" zOrder="3">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="lankku" width="0.000000" x="-215.999878" y="423.000000" zOrder="6">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -12475,12 +12465,12 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="64.000000" layer="" locked="false" name="jedulogo" width="64.000000" x="-74.000000" y="250.000000" zOrder="3">
+                <instance angle="0.000000" customSize="false" height="64.000000" layer="" locked="false" name="jedulogo" width="64.000000" x="-292.000061" y="326.000000" zOrder="3">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="sydan" width="0.000000" x="-174.499969" y="246.000000" zOrder="14">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="sydan" width="0.000000" x="-268.499939" y="472.000000" zOrder="14">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -12490,17 +12480,22 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tietyo" width="0.000000" x="-177.500015" y="88.999992" zOrder="15">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="tietyo" width="0.000000" x="-81.500015" y="147.000000" zOrder="15">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="true" height="300.000000" layer="" locked="false" name="kerrostalo" width="150.000000" x="-394.500122" y="290.000000" zOrder="16">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="aloituspaikka" width="0.000000" x="-188.999985" y="455.499939" zOrder="17">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="aloituspaikka" width="0.000000" x="-215.000015" y="459.499939" zOrder="17">
+                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="lankku" width="0.000000" x="-279.999878" y="561.000000" zOrder="6">
+                    <numberProperties />
+                    <stringProperties />
+                    <initialVariables />
+                </instance>
+                <instance angle="0.000000" customSize="true" height="300.000000" layer="" locked="false" name="kerrostalo" width="150.000000" x="-258.500122" y="-36.000000" zOrder="16">
                     <numberProperties />
                     <stringProperties />
                     <initialVariables />
@@ -13843,11 +13838,6 @@
                     <stringProperties />
                     <initialVariables />
                 </instance>
-                <instance angle="0.000000" customSize="false" height="0.000000" layer="" locked="false" name="uusipeli" width="0.000000" x="335.500000" y="256.000000" zOrder="2">
-                    <numberProperties />
-                    <stringProperties />
-                    <initialVariables />
-                </instance>
             </instances>
             <objects>
                 <object bold="false" italic="false" name="gameover" smoothed="true" type="TextObject::Text" underlined="false">
@@ -13858,30 +13848,11 @@
                     <characterSize>48</characterSize>
                     <color b="0" g="0" r="0" />
                 </object>
-                <object bold="true" italic="false" name="uusipeli" smoothed="true" type="TextObject::Text" underlined="false">
-                    <variables />
-                    <behaviors />
-                    <string>Uusi peli</string>
-                    <font></font>
-                    <characterSize>32</characterSize>
-                    <color b="0" g="128" r="0" />
-                </object>
             </objects>
             <events>
                 <event disabled="false" folded="false">
                     <type>BuiltinCommonInstructions::Standard</type>
-                    <conditions>
-                        <condition>
-                            <type inverted="false" value="SourisSurObjet" />
-                            <parameters>
-                                <parameter>uusipeli</parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                                <parameter></parameter>
-                            </parameters>
-                            <subConditions />
-                        </condition>
-                    </conditions>
+                    <conditions />
                     <actions />
                     <events>
                         <event disabled="false" folded="false">
